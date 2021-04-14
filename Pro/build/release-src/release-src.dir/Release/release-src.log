@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/OsWorkPlace/Pro/release-src/CMakeLists.txt
+  config.h
+  main.cc
+  正在生成代码...
+MSVCRT.lib(exe_main.obj) : error LNK2019: 无法解析的外部符号 main，函数 "int __cdecl __scrt_common_main_seh(void)" (?__scrt_common_main_seh@@YAHXZ) 中引用了该符号
+C:\OsWorkPlace\Pro\build\release-src\Release\release-src.exe : fatal error LNK1120: 1 个无法解析的外部命令
