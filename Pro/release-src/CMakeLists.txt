@@ -3,7 +3,7 @@ message(STATUS "Source Dir --release-src :${CMAKE_SOURCE_DIR}")
 
 include_directories(${CMAKE_SOURCE_DIR}/include ${CMAKE_SOURCE_DIR}/src)
 
-###生成TEST项目
+###生成RELEASE项目
 if(CMAKE_BUILD_TYPE MATCHES "Release")
 file(GLOB C_FILES_IN_RELEASE_SRC "${CMAKE_SOURCE_DIR}/release-src/*.cc")
 set(
